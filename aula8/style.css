@@ -1,0 +1,51 @@
+  p {
+            color: #000000;
+            font-family: Arial, sans-serif;
+        }
+        header {
+            background-color: #f2d707;
+            text-align: center;
+        }
+        header h1 {
+            color: #565454;
+        }
+        header p {
+            color: #565454;
+        }
+        body {
+            background-color: #0b0b0b;
+            margin: 0;
+        }
+        section {
+            background-color: #141414;
+            border-radius: 10px;
+            border: 2px solid #f2d707;
+            padding: 16px;
+            margin-bottom: 16px;
+        }
+        section h3 {
+            color: #f2d707;
+            font-family: 'Courier New', monospace;
+            font-size: 22px;
+        }
+        section p {
+            color: #fdfcfc;
+            font-family: Arial, sans-serif;
+            font-size: 22px;
+        }
+        main {
+            width: 400px;
+            margin: 0 auto;
+        }   
+        main h2 {
+            color: #f2d707;
+            font-family: 'Courier New', monospace;
+            text-align: center;
+        }
+        footer {
+            background-color: #f2d707;
+            text-align: center;
+            padding: 8px;
+            color: #000000;
+            font-family: Arial, sans-serif;
+        }
