@@ -3,12 +3,14 @@ body {
   font-family: Arial, sans-serif;
   background-color: #f8f9fa;
   color: #2b2d42;
+  text-align: center;
 }
 
 main {
   max-width: 480px;
   margin: 0 auto;
   padding: 24px 16px;
+  text-align: left;L
 }
 
 h1, h2 {
