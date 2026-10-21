@@ -133,3 +133,7 @@ a {
 a:hover {
   color: #b85309;
 }
+
+.container-botao {
+ text-align: center;
+}
