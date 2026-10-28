@@ -1,0 +1,81 @@
+/* Cafeteria Booyah — tema Free Fire, versão simples */
+:root {
+  --fundo: #1a1410;
+  --cartao: #251d17;
+  --borda: #3d2f23;
+  --laranja: #ff7a00;
+  --amarelo: #ffc400;
+  --texto: #f6efe4;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  padding: 0 1rem;
+  font-family: "Rajdhani", "Segoe UI", Arial, sans-serif;
+  font-size: 1.15rem;
+  line-height: 1.6;
+  color: var(--texto);
+  background: var(--fundo);
+  text-align: center;
+}
+
+header, main, footer {
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+header { padding: 2.5rem 0 1.5rem; }
+
+h1 {
+  margin: 0 0 .5rem;
+  font-size: 2.6rem;
+  line-height: 1.1;
+  color: var(--amarelo);
+}
+
+h2 {
+  margin: 0 0 .75rem;
+  font-size: 1.4rem;
+  color: var(--laranja);
+}
+
+section {
+  margin-bottom: 1.25rem;
+  padding: 1.25rem;
+  background: var(--cartao);
+  border: 1px solid var(--borda);
+  border-radius: 12px;
+}
+
+video, iframe, object {
+  display: block;
+  width: 100%;
+  border: 0;
+  border-radius: 8px;
+  background: #000;
+}
+
+video, iframe { aspect-ratio: 16 / 9; height: auto; }
+object { height: 420px; }
+
+audio {
+  display: block;
+  width: 100%;
+  accent-color: var(--laranja);
+}
+
+a { color: var(--amarelo); }
+a:focus-visible { outline: 3px solid var(--amarelo); outline-offset: 2px; }
+
+footer {
+  padding: 1rem 0 2.5rem;
+  text-align: center;
+}
+
+@media (max-width: 480px) {
+  h1 { font-size: 2rem; }
+  object { height: 320px; }
+}
+ 

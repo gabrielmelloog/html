@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cafeteria Booyah</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>☕ Cafeteria Booyah</h1>
+    <p>Oi, que bom ter você por aqui! Dá uma olhada no nosso vídeo, ouça a nossa vinheta e veja o que tem no cardápio. Booyah!</p>
+  </header>
+
+  <main>
+
+    <section>
+      <h2>Um pouco da nossa rotina</h2>
+      <video controls poster="imagem/poster.jpg" preload="metadata">
+        <source src="video/cafe.mp4" type="video/mp4">
+        <source src="video/cafe.webm" type="video/webm">
+        <track src="video/legenda.vtt" kind="subtitles" srclang="pt" label="Português" default>
+        Poxa, seu navegador não consegue abrir este vídeo.
+        <a href="video/cafe.mp4">Clique aqui para baixar (MP4)</a>.
+      </video>
+    </section>
+
+    <section>
+      <h2>Ouça a nossa vinheta</h2>
+      <audio controls>
+        <source src="audio/booyah.mp3" type="audio/mpeg">
+        <source src="audio/jingle.ogg" type="audio/ogg">
+        Poxa, seu navegador não consegue tocar este áudio.
+        <a href="audio/booyah.mp3">Clique aqui para baixar (MP3)</a>.
+      </audio>
+    </section>
+
+    <section>
+      <h2>A gente também está no YouTube</h2>
+      <iframe src="https://www.youtube.com/embed/AWylRyuXs4o?si=Uw55gTdmff6Vh6OZ&amp;start=28" title="Vídeo do YouTube" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </section>
+
+    <section>
+      <h2>Confira o nosso cardápio</h2>
+      <object data="docs/cardapio.pdf" type="application/pdf">
+        Seu navegador não mostra PDF por aqui.
+        <a href="docs/cardapio.pdf">Abra o cardápio em outra aba</a>.
+      </object>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>Venha tomar um café com a gente. Cada xícara é uma vitória. ☕</p>
+  </footer>
+    <a href="../index.html"><button style = "background-color:#ff7a00; text-align: center; color:#1a1410; border-radius: 15px; border: 2px solid #f6efe4;border-radius: 15px;width: 50 px;height: 50px;" >voltar</button></a>  
+</body>
+</html>
